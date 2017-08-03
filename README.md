@@ -10,6 +10,18 @@ Message Body
 (Ref <###>)
 ```
 
+## How to use
+
+1. build
+```
+docker-compose build
+```
+
+2. Access container's bash
+```
+docker-compose run app bash
+```
+
 ## Suggested Emojis
 
 | Emoji | Raw Emoji Code | Description |
