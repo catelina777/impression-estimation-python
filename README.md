@@ -18,6 +18,7 @@ Message Body
 | :pencil: | `:pencil:` | when performing minor changes/fixing the code or language |
 | :racehorse: | `:racehorse:` | when improving performance |
 | :bug: | `:bug:` | when fixing a bug |
+| :checkmark: | `:checkmark:` | when adding tests |
 | :heavy_plus_sign: | `:heavy_plus_sign:` | when adding feature |
 | :heavy_minus_sign: | `:heavy_minus_sign:` | when removing feature |
 | :lipstick: | `:lipstick:` | when improving UI/Cosmetic |
