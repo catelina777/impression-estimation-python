@@ -3,4 +3,4 @@ services:
   app:
     build: .
     volumes:
-      - .:/usr/workplace
+      - .:/usr/workspace
