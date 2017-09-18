@@ -17,7 +17,6 @@ img_path: ../images
 # File to record feature quantity (csv)
 features_file: ../results/feature_values.csv
 
-# 結果を記録するファイル（csv）
 # File to record results (csv)
 result_file: ../results/result.csv
 
