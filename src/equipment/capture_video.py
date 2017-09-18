@@ -7,13 +7,13 @@ Convert Video File to an array of images
 import cv2
 import numpy as np
 
-'''		CaptureVideo() 	'''
+'''		capture_video() 	'''
 # 'cv2.VideoCapture()'を扱いやすい形にする
 # 'cv2.VideoCapture'クラスを'numpy.ndarray'クラスに変換する
 # 'array[時間][Y座標][X座標][B,G,R(0,1,2)]'の4次元配列
 # 'resizing=True'のとき'width','height'のサイズにリサイズ（正規化）する
 # 'sec'の値（秒）ごとに画像を取得
-def CaptureVideo(file, sec=5, resizing=True, width=300, height=200):
+def capture_video(file, sec=5, resizing=True, width=300, height=200):
 
 	cap = cv2.VideoCapture(file)
 
@@ -48,7 +48,7 @@ def CaptureVideo(file, sec=5, resizing=True, width=300, height=200):
 
 def main():
 	file = 'sample/sample.mp4'
-	video = CaptureVideo(file)
+	video = capture_video(file)
 	cv2.imwrite('sample/result.jpg', video[2])
 	print(video.shape)
 
