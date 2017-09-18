@@ -1,4 +1,13 @@
-FROM python:3.6.2
-COPY . /usr/workplace
-WORKDIR /usr/workplace
-RUN pip install -r requirements.txt
+FROM crestedibis/python3-opencv3-docker
+
+RUN pip install \
+        pandas \
+        tqdm \
+        pyyaml \
+        sklearn \
+        scipy
+
+COPY . /usr/workspace
+WORKDIR /usr/workspace
+
+CMD ["bash"]
