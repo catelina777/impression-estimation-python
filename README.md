@@ -12,14 +12,14 @@ Message Body
 
 ## How to use
 
-1. build
+1. Build app
 ```
 docker-compose build
 ```
 
-2. Access container's bash
+2. Run app
 ```
-docker-compose run app bash
+docker-compose run app
 ```
 
 ## Suggested Emojis
