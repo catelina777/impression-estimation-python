@@ -1,0 +1,25 @@
+
+# Path to video file
+video_root:
+
+# Image capturing cutout interval (sec)
+Interval: 1
+
+# Resizing the cutout image
+resizing: True
+
+img_width: 150
+img_height: 100
+
+# Directory name to save the image
+img_path: ../images
+
+# File to record feature quantity (csv)
+features_file: ../results/feature_values.csv
+
+# File to record results (csv)
+result_file: ../results/result.csv
+
+# Parameter of analyzer1.py. N-valued N
+analyzer1_params:
+ n: 3

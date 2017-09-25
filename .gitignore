@@ -1,3 +1,9 @@
+# status.yml
+src/status.yml
+
+# ignore images
+images/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
